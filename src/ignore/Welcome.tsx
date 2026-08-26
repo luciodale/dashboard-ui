@@ -103,6 +103,19 @@ export function Welcome() {
 									GET /api/weather/:lat/:lng
 								</code>{" "}
 								- Get weather data for coordinates
+								<ul>
+									<li>
+										<code style={{ color: "orange" }}>200</code> weather data
+									</li>
+									<li>
+										<code style={{ color: "orange" }}>404</code> unknown
+										coordinates
+									</li>
+									<li>
+										<code style={{ color: "orange" }}>500</code> service
+										unavailable
+									</li>
+								</ul>
 							</li>
 						</div>
 					</div>
